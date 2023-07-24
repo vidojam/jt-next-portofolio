@@ -1,11 +1,16 @@
 import React, { ReactElement } from "react";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+import Projects from "@/components/Projects";
+import Navbar from "@/components/Navbar";
+
 
 export default function Home(): ReactElement {
   return (
     <main>
+      <Navbar />
       <Hero />
+      <Projects />
       <Footer />
     </main>
   );

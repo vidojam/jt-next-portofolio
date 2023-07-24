@@ -8,9 +8,9 @@ export default function Hero () {
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font md:text-4xl text-3xl mb-4 font-xl text-white">Jose A. Torres
-            <br/><br/>Software Engineer<br/><br/><br/>
+            <br/><br/>Software Engineer<br/><br/>
           </h1>
-          <p className="mb-8 text-xl leading-relaxed">As a creative and resourceful software engineer, I find immense joy in assisting clients and helping them achieve their objectives. My dedication to the craft is evident in the pride I take in my work. The ever-evolving landscape of software engineering excites me, and I approach the future with confidence, knowing that my contributions to the field will be meaningful and impactful.</p><br /><br/>
+          <p className="mb-8 text-xl leading-relaxed">As a creative and resourceful software engineer, I find immense joy in assisting clients and helping them achieve their objectives. My dedication to the craft is evident in the pride I take in my work. The ever-evolving landscape of software engineering excites me, and I approach the future with confidence, knowing that my contributions to the field will be meaningful and impactful.</p><br />
           <div className="flex justify-center">
             <button className="scale-90 hover:scale-100 inline-flex  text-black bg-[#26cdd3] border-0 py-2 px-6 focus:outline-none hover:bg-[#175f67] rounded hover:text-white text-lg"><a href="https://bocacode.com/candidates/software-engineer/jose-torres" rel="noopener noreferrer" target="_blank">Profile</a></button>
             <button className="scale-90 hover:scale-100 ml-4 inline-flex text-black bg-[#26cdd3] border-0 py-2 px-6 focus:outline-none hover:bg-[#175f67] rounded  hover:text-white text-lg"><a href="/images/Jose_Torres_Resume_2023.pdf" rel="noopener noreferrer" target="_blank">Resume</a></button>
