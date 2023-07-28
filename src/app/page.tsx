@@ -1,10 +1,9 @@
+
+
 export default function Hero () {
 
   return (
-      
-      
-    
-    
+      <section className="object-cover lg:h-screen md:h-screen text-gray-400 bg-gray-900 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img className="shadow-[0px_10px_200px_25px] shadow-center shadow-[#26cdd3] scale-90 hover:scale-100 hover:shadow-2xl transition ease-in-out duration-500 object-cover object-center rounded-lg" alt="hero" src="/images/jose.png"/>
@@ -26,6 +25,6 @@ export default function Hero () {
           </div>
         </div>
       </div>
+    </section>
   )
-  
 }
