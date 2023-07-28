@@ -8,14 +8,14 @@ export default function NavBar() {
   const pathname = usePathname();
 
   return (
-    <Navbar bg="info" variant="dark" color="black" sticky="top" expand="sm" collapseOnSelect>
-       <Container color="black">
+    <Navbar bg="info" variant="dark" color="black" sticky="top" expand="sm"  text-gray-900 collapseOnSelect >
+       <Container>
           <Navbar.Brand as={Link} href="/">
                Portfolio
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="main-navbar" />
           <Navbar.Collapse id="main-navbar">
-            <Nav text-black >
+            <Nav>
               <Nav.Link as={Link} href="/" active={ pathname === "/Projects" }>Home</Nav.Link>
               <Nav.Link as={Link} href="/Projects" active={ pathname === "/Projects" }>Projects</Nav.Link>
               <Nav.Link as={Link} href="/Certificates" active={ pathname === "/Certificates" }>Certificates</Nav.Link>
