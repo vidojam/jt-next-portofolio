@@ -4,11 +4,12 @@ import Link from "next/link";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { usePathname } from "next/navigation";
 
+
 export default function NavBar() {
   const pathname = usePathname();
 
   return (
-    <Navbar bg="info" variant="dark" color="black" sticky="top" expand="sm"  text-gray-900 collapseOnSelect >
+    <Navbar bg="primary" variant="dark" color="black" sticky="top" expand="sm"   collapseOnSelect >
        <Container>
           <Navbar.Brand as={Link} href="/">
                Portfolio

@@ -1,4 +1,6 @@
+
 import React from 'react';
+import Link from 'next/link';
 
 const Projects: React.FC = () => {
   return (
@@ -6,15 +8,13 @@ const Projects: React.FC = () => {
       <div className='container px-5 py-24 mx-auto'>
         <div className='flex flex-wrap w-full mb-20'>
           <div className='lg:w-1/2 w-full mb-6 lg:mb-0'>
-            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900'>
-              Pitchfork Kickstarter Taxidermy
-            </h1>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900'><strong><br/>
+              Projects 2023...
+              </strong></h1>
             <div className='h-1 w-20 bg-purple-500 rounded'></div>
           </div>
           <p className='lg:w-1/2 w-full leading-relaxed text-gray-500'>
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile
-            poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing
-            selfies heirloom prism food truck ugh squid celiac humblebrag.
+          <strong>Below are a few of my most recent projects in JavaScript, React, Node.js, Next.js, Tailwind CSS, and TypeScript</strong>
           </p>
         </div>
         <div className='flex flex-wrap -m-4'>
@@ -22,16 +22,15 @@ const Projects: React.FC = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='https://dummyimage.com/720x400'
+                src='/images/visual_story.png'
                 alt='content'
               />
               <h3 className='tracking-widest text-purple-500 text-xs font-medium title-font'>
-                SUBTITLE
+              
               </h3>
-              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>Chichen Itza</h2>
+              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'><strong>AN AI GENERATED VISUAL STORY</strong></h2>
               <p className='leading-relaxed text-base'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt
-                edison bulbche.
+              <strong>A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.<Link href="https://jt-visual-story-web.web.app/"></Link></strong>
               </p>
             </div>
           </div>
@@ -39,16 +38,15 @@ const Projects: React.FC = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='https://dummyimage.com/721x401'
+                src='images/TM.png'
                 alt='content'
               />
               <h3 className='tracking-widest text-purple-500 text-xs font-medium title-font'>
-                SUBTITLE
+                
               </h3>
-              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>Colosseum Roma</h2>
+              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>Evaluator Assistant</h2>
               <p className='leading-relaxed text-base'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt
-                edison bulbche.
+              A program a designed to assist in the evaluation of a speakers speech structure, including the opening, body, and conclusion.https://main.d37yfbql1dsoi8.amplifyapp.com/
               </p>
             </div>
           </div>
@@ -56,18 +54,17 @@ const Projects: React.FC = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='https://dummyimage.com/722x402'
+                src='/images/Much_Todo.png'
                 alt='content'
               />
               <h3 className='tracking-widest text-purple-500 text-xs font-medium title-font'>
-                SUBTITLE
+              
               </h3>
               <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>
-                Great Pyramid of Giza
+                Much Todo
               </h2>
               <p className='leading-relaxed text-base'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt
-                edison bulbche.
+              To-do lists help individuals allocate their time wisely by providing a visual representation of tasks and deadlines, enabling them to plan their day or week more effectively.
               </p>
             </div>
           </div>
@@ -75,16 +72,15 @@ const Projects: React.FC = () => {
             <div className='bg-gray-100 p-6 rounded-lg'>
               <img
                 className='h-40 rounded w-full object-cover object-center mb-6'
-                src='https://dummyimage.com/723x403'
+                src='/images/Timber_Login.png'
                 alt='content'
               />
               <h3 className='tracking-widest text-purple-500 text-xs font-medium title-font'>
-                SUBTITLE
+                
               </h3>
-              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>San Francisco</h2>
+              <h2 className='text-lg text-gray-900 font-medium title-font mb-4'>Authentication</h2>
               <p className='leading-relaxed text-base'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt
-                edison bulbche.
+              This program is a login demo that demonstrates a secure and controlled access mechanism for users, allowing them to authenticate their identity before accessing specific features, protected content, or restricted areas of an application.
               </p>
             </div>
           </div>
