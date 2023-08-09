@@ -28,6 +28,7 @@ const Hero: React.FC = () => {
           </p>
           <br />
 
+
           <div className="flex justify-center">
             <button className="scale-90 hover:scale-100 inline-flex text-black bg-[#133090] border-0 py-2 px-6 focus:outline-none hover:bg-[#175f67] rounded hover:text-white btn-lg text-lg">
               <a href="https://bocacode.com/candidates/software-engineer/jose-torres" rel="noopener noreferrer" target="_blank">
@@ -35,7 +36,7 @@ const Hero: React.FC = () => {
               </a>
             </button>
             <div>
-              <button className="scale-90 hover:scale-100 ml-4 inline-flex text-black bg-[#26cdd3] border-0 py-2 px-6 focus:outline-none hover:bg-[#175f67] rounded hover:text-white text-lg">
+              <button className="scale-90 hover:scale-100 ml-4 inline-flex text-black bg-[#26cdd3] border-0 py-2 px-6      focus:outline-none hover:bg-[#175f67] rounded hover:text-white text-lg">
                 <a href="/images/Jose_Torres_Resume_2023.pdf" rel="noopener noreferrer" target="_blank">
                   Resume
                 </a>
@@ -43,6 +44,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <br />
+
 
           <div className="p-8 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
             <a href="https://github.com/vidojam" className="scale-90 hover:scale-100 ml-3 text-titanium-500 inline-flex" target="_blank" rel="noreferrer">
