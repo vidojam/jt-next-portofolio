@@ -1,11 +1,9 @@
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Container, SSRProvider } from '@/src/components/bootstrap'
 import NavBar from './NavBar'
 import Footer from './Footer'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,10 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
           <NavBar />  
-          <main>
-            <Container className="py-4">
+          <main className='bg-pink-500'>
+            <div className="container py-4">
               {children}
-            </Container>
+            </div>
             <Footer />
           </main>
         </body>

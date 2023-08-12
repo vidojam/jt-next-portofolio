@@ -1,6 +1,4 @@
 import React from 'react';
-import 'tailwindcss/tailwind.css';
-import './globals.css'
 
 const Hero: React.FC = () => {
   return (

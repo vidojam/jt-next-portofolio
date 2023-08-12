@@ -8,16 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 } */
 
-#main-navbar {
-   text-shadow: rgb(16, 16, 137);
-}
-
-body {
-  flex-direction: col;
-  width: 100vw;
-  height:100vh;
-  background-image: linear-gradient(to bottom, rgb(0, 190, 255), rgb(0, 190, 255));
-}
 
 /* body {
   color: rgb(var(--foreground-rgb));
